@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">KotlinBasic</string>
+    <string name="kotlinBasic">Kotlin Basic</string>
+    <string name="btnCompare">Compare</string>
+    <string name="result_01">Result 01:</string>
+    <string name="result_02">Result 02:</string>
+    <string name="result_03">Result 03:</string>
+    <string name="enter_input">Please enter both input!</string>
+    <string name="input_01">Input 01</string>
+    <string name="input_02">Input 02</string>
+</resources>
