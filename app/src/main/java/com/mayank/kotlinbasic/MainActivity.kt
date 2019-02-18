@@ -21,7 +21,7 @@ class MainActivity : AppCompatActivity() {
 
         /**
          * You can declare here the button click listener here itself
-         * w/o any boiler plate id's reference's
+         * w/o any boiler plate id's reference
          *
          */
         btnCompare.setOnClickListener(object : View.OnClickListener {
