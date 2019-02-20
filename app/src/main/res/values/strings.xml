@@ -8,4 +8,25 @@
     <string name="enter_input">Please enter both input!</string>
     <string name="input_01">Input 01</string>
     <string name="input_02">Input 02</string>
+    <string name="dummy_text">lorem ipsum</string>
+    <string name="tv_list">List</string>
+    <string name="title_recycler_view">Recycler List View</string>
+
+    <string-array name="framework_list">
+        <item>Java</item>
+        <item>Kotlin</item>
+        <item>React Native</item>
+        <item>Node JS</item>
+        <item>PHP</item>
+        <item>.Net</item>
+        <item>Symfony</item>
+        <item>Ruby on Rails</item>
+        <item>Angular JS</item>
+        <item>Laravel</item>
+        <item>React JS</item>
+        <item>CakePHP</item>
+        <item>Vue JS</item>
+        <item>Yii</item>
+        <item>Meteor</item>
+    </string-array>
 </resources>

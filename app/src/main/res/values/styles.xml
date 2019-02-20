@@ -8,4 +8,13 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="CardViewStyle">
+        <item name="cardBackgroundColor">@android:color/white</item>
+        <item name="cardCornerRadius">1dp</item>
+        <item name="cardMaxElevation">0.7dp</item>
+        <item name="contentPaddingBottom">0dp</item>
+        <item name="cardUseCompatPadding">true</item>
+        <item name="cardPreventCornerOverlap">true</item>
+    </style>
+
 </resources>

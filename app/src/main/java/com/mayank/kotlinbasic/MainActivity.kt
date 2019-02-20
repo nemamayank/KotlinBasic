@@ -1,5 +1,6 @@
 package com.mayank.kotlinbasic
 
+import android.content.Intent
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import android.text.TextUtils
@@ -39,6 +40,23 @@ class MainActivity : AppCompatActivity() {
                 else
                     Toast.makeText(applicationContext, getString(R.string.enter_input), Toast.LENGTH_SHORT).show()
 
+            }
+        })
+
+        btnShowList.setOnClickListener(object : View.OnClickListener {
+            override fun onClick(v: View?) {
+
+                /**
+                 *  You can get a reference to your MainActivity object in Kotlin by using a qualified this.
+                 *  as shown below you can use the method declared in other class (in my case it's [Utility.kt])
+                 */
+                hideKeyboard(this@MainActivity)
+
+                /**
+                 * Here you can see how to start activity in kotlin via intent
+                 * Use ::class.java which is alternative of .class in kotlin
+                 */
+                startActivity(Intent(this@MainActivity, RecyclerViewList::class.java));
             }
         })
     }
